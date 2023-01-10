@@ -57,7 +57,7 @@ body{
 ========================================================================== */
 .banner {
     width: 1200px;
-    height:500px;
+    height:549px;
     transition: all 0.3s ease-in-out;
     margin-left: auto;
     margin-right: auto;
@@ -73,6 +73,7 @@ body{
 
 img{
     width: 100%;
+    padding-top: 1.5em;
 }
 
 @keyframes slide{
@@ -139,4 +140,13 @@ h3{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -0.5rem;
+}
+
+.jumbotron h1 {
+    background-color: #ffffff;
+    color: #0D0D0E;
+    bottom: 0;
+    margin: .5em;
+    padding: .25em .5em;
+    position: absolute;
 }
