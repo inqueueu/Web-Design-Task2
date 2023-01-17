@@ -111,6 +111,10 @@ h2{
     
 }
 
+h5, .author{
+    text-align: center;
+}
+
 .column {
     flex: 50%;
     padding: 10em;
@@ -129,6 +133,7 @@ h3{
     padding-top: 1em;
     font-size: 30px;
 }
+
 
 .col-5{
     padding-top: 2em;   
@@ -149,4 +154,31 @@ h3{
     margin: .5em;
     padding: .25em .5em;
     position: absolute;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.vl {
+    border-left: 1px solid antiquewhite;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 20em;
+}
+
+.vl-text {
+    text-align: left;
+    padding-left: 2em;
+}
+
+.vl-text-l {
+    padding-left: 2em;
+    padding-top: 9em;
 }
