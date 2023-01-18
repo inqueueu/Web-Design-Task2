@@ -8,6 +8,7 @@ body {
 	color: floralwhite;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/*------------------------------NAVBAR-------------------*/
 .navbar {
 	border-bottom: 1px solid #d1d3d5;
 	padding: 0%;
@@ -39,7 +40,7 @@ body {
 	margin-right: auto;
 	margin-top: 0.5em;
 }
-/* Slides
+/* MOVING SLIDES
 ========================================================================== */
 .banner {
 	height: 549px;
@@ -97,6 +98,7 @@ h5, .author {
 	flex: 50%;
 	padding: 10em;
 }
+/* ---------------------------- FOOTER -----------------------*/
 footer {
 	background-color: #0D0D0E;
 	border-top: 1px solid #d1d3d5;
@@ -104,7 +106,6 @@ footer {
 }
 h3 {
 	font-size: 30px;
-	padding-left: 1em;
 	padding-top: 1em;
 }
 .col-5 {
@@ -130,6 +131,11 @@ p {
 	margin-inline-end: 0px;
 	margin-inline-start: 0px;
 }
+.readmore {
+	float: right;
+	margin-top: 10px;
+}
+/*--------------LINKS VERTICAL LINE--------------*/
 .vl {
 	border-left: 1px solid antiquewhite;
 	height: 100px;
@@ -153,7 +159,6 @@ p {
 	padding-top: 0em;
 	width: 95%;
 }
-
 .new-post {
 	padding-left: 1em;
 	padding-right: auto;
@@ -161,13 +166,14 @@ p {
 }
 h4 {
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
 	text-decoration: underline;
 }
+/*----------------------NEWSLETTER-----------------------*/
 #Newsletter {
 	background-image: url(imgs/newsletter2.jfif);
 	color: #ffffff;
-	opacity: 85%;
+	opacity: 80%;
 }
 #Newsletter h1 {
 	letter-spacing: 3px;
@@ -209,4 +215,14 @@ form .button:hover {
 h5 {
 	padding-left: auto;
 	padding-right: auto;
+}
+
+h6{
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.business{
+    text-align: center;
 }
