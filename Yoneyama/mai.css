@@ -175,10 +175,18 @@ p {
 
 .vl-text {
     text-align: left;
-    padding-left: 2em;
+    padding-left: 5em;
 }
 
 .vl-text-l {
-    padding-left: 2em;
+    padding-left: 5em;
     padding-top: 9em;
+}
+
+.gif {
+    padding-top: 0em;
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
